@@ -1,0 +1,264 @@
+ /* resetando as formatações inicias da pagina*/
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+     text-decoration: none;
+ }
+
+ /* confirando a barra de navegação*/
+ .cabecalho {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     padding: 30px
+ }
+
+ .cabecalho div,
+ a {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     gap: 25px;
+     color: #282828;
+     font-weight: bold;
+     font-size: 18px;
+ }
+
+ a:hover {
+     color: #006241;
+ }
+
+ #botao1 {
+     border-radius: 20px;
+     padding: 7px;
+     width: 80px;
+     background-color: white;
+     font-weight: bold;
+     cursor: pointer;
+ }
+
+ #botao2 {
+     border-radius: 20px;
+     padding: 7px;
+     width: 110px;
+     background-color: #282828;
+     color: white;
+     font-weight: bold;
+     cursor: pointer;
+ }
+
+ /* configurando o banner*/
+ .banner {
+     background-color: #1e3932;
+     align-items: center;
+     display: flex;
+     justify-content: space-between;
+     text-align: center;
+     padding-bottom: 15px;
+     padding-right: 76px;
+     padding-top: 15px;
+     border-top: 30px solid white;
+ }
+
+ header {
+     border-bottom: 2px solid #ECEBEC;
+ }
+
+ .banner div {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .texto {
+     color: #ffff;
+     font-size: 25px;
+ }
+
+ #botao3 {
+     background-color: #1e3932;
+     border-radius: 20px;
+     padding: 10px;
+     border-color: white;
+     font-weight: bold;
+     font-size: 15px;
+     color: white;
+     width: 300px;
+     cursor: pointer;
+ }
+
+ /* primeira section*/
+ .conteudo1 {
+     display: flex;
+     flex-direction: row-reverse;
+     background-color: #faaa5a;
+     justify-content: space-between;
+     border-bottom: 4px solid white;
+     border-top: 30px solid white;
+ }
+
+ .conteudo-escrito1 {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding-left: 76px;
+     text-align: center;
+     gap: 30px;
+ }
+
+ .titulo1 {
+     color: #33433d;
+     font-size: 55px;
+ }
+
+ .subtitulo1 {
+     color: #33433d;
+     font-size: 28px;
+ }
+
+ #egift {
+     border-radius: 20px;
+     background-color: #faaa5a;
+     padding: 10px;
+     width: 150px;
+     cursor: pointer;
+ }
+
+ /*segunda section*/
+
+ .conteudo2 {
+     display: flex;
+     flex-direction: row;
+     background-color: #fa91aa;
+     ;
+     justify-content: space-between;
+     border-bottom: 4px solid white;
+     border-top: 30px solid white;
+ }
+
+ .conteudo-escrito2 {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding-right: 76px;
+     text-align: center;
+     gap: 30px;
+ }
+
+ #saiba1 {
+     border-radius: 20px;
+     background-color: #fa91aa;
+     padding: 10px;
+     width: 150px;
+     cursor: pointer;
+ }
+
+ /*terceira section*/
+
+ .conteudo3 {
+     display: flex;
+     flex-direction: row-reverse;
+     background-color: #f06464;
+     justify-content: space-between;
+     border-bottom: 30px solid white;
+     border-top: 30px solid white;
+ }
+
+ .titulo2 {
+     color: white;
+     font-size: 55px;
+ }
+
+ .subtitulo2 {
+     color: white;
+     font-size: 28px;
+ }
+
+ #saiba2 {
+     border-radius: 20px;
+     background-color: #f06464;
+     padding: 10px;
+     width: 150px;
+     color: white;
+     border-color: white;
+     font-weight: bold;
+     cursor: pointer;
+ }
+
+
+ /*ultima section antes do footer*/
+
+ .fim {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 30px;
+     border-bottom: 1px solid gray;
+     font-weight: bold;
+ }
+
+ /*primeira parte do footer*/
+
+ .rodape {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     padding: 38px;
+     border-bottom: 1px solid gray;
+     gap: 30px;
+ }
+
+ .conteudo-escrito3 {
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     gap: 30px;
+ }
+
+ .titulo3 {
+     display: flex;
+     align-items: center;
+     color: #1e2322;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+ }
+
+ .texto3 {
+     font-family: Arial, Helvetica, sans-serif;
+     display: flex;
+     flex-direction: column;
+     color: gray;
+     cursor: pointer;
+ }
+
+ .texto3:hover {
+     color: #1e2322;
+ }
+
+ /*segunda parte do footer*/
+
+ .icones{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: flex-start;
+    padding: 25px;
+ }
+
+ .nav-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap:25px;
+    padding: 25px;
+    font-size: 15px;
+}
+
+.padding{
+    padding: 25px;
+}
