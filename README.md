@@ -1,5 +1,5 @@
 # Clone-Starbucks
-<p>Ao longo desse projeto desenvolvi um "clone" do site oficial da Starbucks, com HTML e CSS.7</p>
+<p>Ao longo desse projeto desenvolvi um "clone" do site oficial da Starbucks, com HTML e CSS.</p>
 
 <a href="https://www.starbucks.com" target="_blank">Site oficial Starbucks</a>
 
