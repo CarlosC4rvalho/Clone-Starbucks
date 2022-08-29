@@ -1,6 +1,7 @@
 # Clone-Starbucks
-Ao longo desse projeto desenvolvi um "clone" do site oficial da Starbucks, com HTML e CSS.7
-<a herf="https://www.starbucks.com">Site oficial</a>
+<p>Ao longo desse projeto desenvolvi um "clone" do site oficial da Starbucks, com HTML e CSS.7</p>
+
+<a href="https://www.starbucks.com">Site oficial Starbucks</a>
 
 
 ![Captura de Tela (232)](https://user-images.githubusercontent.com/110244419/187103221-85beb7f2-a0d8-4366-b4ba-02c2899239e6.png)
